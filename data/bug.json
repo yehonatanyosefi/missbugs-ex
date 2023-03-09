@@ -1,0 +1,74 @@
+[
+	{
+		"_id": "abc123",
+		"title": "Cannot save a user",
+		"description": "problem when clicking Save",
+		"severity": 2,
+		"createdAt": 1542107359458,
+		"labels": ["critical", "dev-branch"],
+		"owner": {
+			"_id": "u102",
+			"fullName": "Muki Ba"
+		}
+	},
+	{
+		"_id": "abc124",
+		"title": "Home page not loading",
+		"description": "problem when clicking home",
+		"severity": 3,
+		"createdAt": 1542107359457,
+		"labels": ["critical", "dev-branch"],
+		"owner": {
+			"_id": "u101",
+			"fullName": "Puki Ka"
+		}
+	},
+	{
+		"_id": "abc125",
+		"title": "Ui isn't good",
+		"description": "css is not good up",
+		"severity": 2,
+		"createdAt": 1542107359456,
+		"labels": ["dev-branch"],
+		"owner": {
+			"_id": "u102",
+			"fullName": "Muki Ba"
+		}
+	},
+	{
+		"_id": "abc127",
+		"title": "Cannot edit an entity",
+		"description": "It doesn't work",
+		"severity": 2,
+		"createdAt": 154210735955,
+		"labels": ["feature"],
+		"owner": {
+			"_id": "u101",
+			"fullName": "Puki Ka"
+		}
+	},
+	{
+		"_id": "abc130",
+		"title": "It shows a small x",
+		"description": "shows a small x as a delete",
+		"severity": 1,
+		"createdAt": 154210735953,
+		"labels": ["typo", "feature"],
+		"owner": {
+			"_id": "u101",
+			"fullName": "Puki Ka"
+		}
+	},
+	{
+		"_id": "abc131",
+		"title": "Some typos",
+		"description": "Some letters are lowercase",
+		"severity": 1,
+		"createdAt": 154210735952,
+		"labels": ["typo"],
+		"owner": {
+			"_id": "u102",
+			"fullName": "Muki Ba"
+		}
+	}
+]

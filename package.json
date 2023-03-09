@@ -1,0 +1,23 @@
+{
+	"name": "proj-node-server",
+	"version": "1.0.0",
+	"description": "My first Node server",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js",
+		"show-files": "dir",
+		"check-network": "ping google.com"
+	},
+	"author": "Me",
+	"dependencies": {
+		"cookie-parser": "^1.4.6",
+		"express": "^4.18.2",
+		"nodemon": "^2.0.21",
+		"cryptr": "^6.2.0",
+		"pdfkit": "^0.13.0"
+	},
+	"main": "server.js",
+	"keywords": [],
+	"license": "ISC",
+	"devDependencies": {}
+}
